@@ -8,7 +8,12 @@
 }
 
 .margenes_fotos{  
-    margin-top: 20px; 
+    margin-top: 20px;
+    @media (max-width:580px){
+       display: flex;
+      justify-content: end;
+       
+    } 
 
 }
 
@@ -24,11 +29,4 @@
         }
 
                 
-}
-.titulo_foto{
-  
-       align-items: center;
-  width: 150px;
-  @include formato_base(nth($letras,1),$tamano_15,5px,$tamano_15 0px 0px 25%, $color-letras)
-  
 }
