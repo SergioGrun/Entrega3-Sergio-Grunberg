@@ -205,6 +205,11 @@ header {
 .maximo-margen {
   max-width: 90%;
 }
+@media (max-width: 580px) {
+  .maximo-margen {
+    justify-content: center;
+  }
+}
 
 .mensaje {
   text-align: center;
