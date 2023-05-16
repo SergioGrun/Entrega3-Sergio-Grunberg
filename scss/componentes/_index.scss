@@ -45,8 +45,11 @@
     .tipo_lista{
         list-style: square;
         font-style: italic;
-        @include formato_base (nth($letras,3),14px,10px, 50px 0px 0px 70px,$color-letras);
+        @include formato_base (nth($letras,3),30px,10px, 50px 0px 0px 70px,$color-letras);
         justify-content: center;
+        @media (max-width:580px){
+            margin-top: 0px;
+        }
     }
     
     .margen-index{
@@ -56,7 +59,14 @@
     }
     .margen-fotos{
         margin:15px;
-    }
+        @media (max-width:580px){
+            max-width: 90%;
+          
+          
+        }
+            
+        }
+    
     
     .maximo-margen{
         max-width: 90%;
