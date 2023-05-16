@@ -80,7 +80,7 @@ nav {
 
 .boton_logo_izquierda{
   transition: all 2.5s;
-    &:hover{    transform:skewX(15deg);
+    &:hover{    transform:skewX(-15deg);
   
       background-color: lightgray;
     }
@@ -94,6 +94,19 @@ nav {
 .boton_logo_skew{
   transition: all 2.5s;
     &:hover{    transform:skew(20deg,5deg);
+  
+      background-color: lightgray;
+    }
+    @media (max-width:580px){
+      transform: none;
+      
+  }
+
+}
+
+.boton_translado{
+  transition: all 2.5s;
+    &:hover{transform:translate(20px,30px);
   
       background-color: lightgray;
     }

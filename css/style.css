@@ -78,7 +78,7 @@ nav ul li:hover {
   transition: all 2.5s;
 }
 .boton_logo_izquierda:hover {
-  transform: skewX(15deg);
+  transform: skewX(-15deg);
   background-color: lightgray;
 }
 @media (max-width: 580px) {
@@ -96,6 +96,19 @@ nav ul li:hover {
 }
 @media (max-width: 580px) {
   .boton_logo_skew {
+    transform: none;
+  }
+}
+
+.boton_translado {
+  transition: all 2.5s;
+}
+.boton_translado:hover {
+  transform: translate(20px, 30px);
+  background-color: lightgray;
+}
+@media (max-width: 580px) {
+  .boton_translado {
     transform: none;
   }
 }
