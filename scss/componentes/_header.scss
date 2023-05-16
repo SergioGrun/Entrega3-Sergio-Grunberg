@@ -56,3 +56,36 @@ nav {
       background-color: lightgray;
     }
 }
+
+.boton_logo_derecha{
+  transition: all 2.5s;
+    &:hover{    transform:skewY(15deg);
+  
+      background-color: lightgray;
+    }
+}
+
+.boton_logo_izquierda{
+  transition: all 2.5s;
+    &:hover{    transform:skewX(15deg);
+  
+      background-color: lightgray;
+    }
+}
+
+.boton_logo_skew{
+  transition: all 2.5s;
+    &:hover{    transform:skew(20deg,5deg);
+  
+      background-color: lightgray;
+    }
+}
+
+
+.boton_rotado{
+  transition: all 2.5s;
+    &:hover{    transform:rotate(35deg);
+  
+      background-color: lightgray;
+    }
+}

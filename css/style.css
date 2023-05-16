@@ -56,6 +56,38 @@ nav ul li:hover {
   background-color: lightgray;
 }
 
+.boton_logo_derecha {
+  transition: all 2.5s;
+}
+.boton_logo_derecha:hover {
+  transform: skewY(15deg);
+  background-color: lightgray;
+}
+
+.boton_logo_izquierda {
+  transition: all 2.5s;
+}
+.boton_logo_izquierda:hover {
+  transform: skewX(15deg);
+  background-color: lightgray;
+}
+
+.boton_logo_skew {
+  transition: all 2.5s;
+}
+.boton_logo_skew:hover {
+  transform: skew(20deg, 5deg);
+  background-color: lightgray;
+}
+
+.boton_rotado {
+  transition: all 2.5s;
+}
+.boton_rotado:hover {
+  transform: rotate(35deg);
+  background-color: lightgray;
+}
+
 body {
   background: #bdc3c7; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); /* Chrome 10-25, Safari 5.1-6 */
